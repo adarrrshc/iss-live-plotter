@@ -63,7 +63,7 @@ function draw() {
   image(bg, 0, 0, mapWidth, mapHeight);
 
   noStroke();
-  fill(0, 0, 255,200);
+  fill(255, 23, 68);
 
   if (z>x){   //for a better visual effect
     load();
@@ -75,7 +75,7 @@ function draw() {
 
 
 
-  stroke(255, 100, 0);
+  stroke(255, 23, 68);
   line(z, -1*mapHeight/2, z, height);
   z = z + 1;
   if (z > 398) {
