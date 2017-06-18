@@ -2,7 +2,7 @@ var data;
 
 var z=0;
 
-var url = "http://api.open-notify.org/iss-now.json";
+var url = "http://api.open-notify.org/iss-now.json";//api url
 
 var bg;//background image
 
