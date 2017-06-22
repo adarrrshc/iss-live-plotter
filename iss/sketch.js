@@ -2,7 +2,7 @@ var data;
 
 var z=0;
 
-var url = "http://api.open-notify.org/iss-now.json";//api url
+var url = "http://api.open-notify.org/iss-now.json";
 
 var bg;//background image
 
@@ -63,7 +63,7 @@ function draw() {
   image(bg, 0, 0, mapWidth, mapHeight);
 
   noStroke();
-  fill(255, 23, 68);
+  fill(1, 87, 155);
 
   if (z>x){   //for a better visual effect
     load();
@@ -75,7 +75,7 @@ function draw() {
 
 
 
-  stroke(255, 23, 68);
+  stroke(0, 145, 234);
   line(z, -1*mapHeight/2, z, height);
   z = z + 1;
   if (z > 398) {
